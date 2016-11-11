@@ -1,9 +1,14 @@
 package com.company;
 
+import java.io.PrintStream;
+import java.util.Scanner;
+
 public class Main {
+    public static Scanner in = new Scanner(System.in);
+    public static PrintStream out = System.out;
 
     public static void main(String[] args) {
-	System.out.print("NikitaLoxx");
-        System.out.print("hfhfhfhfhf");
+        out.print("NikitaLoxx");
+        out.print("hfhfhfhfhf");
     }
 }
